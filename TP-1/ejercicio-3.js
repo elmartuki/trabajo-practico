@@ -1,1 +1,1 @@
-document.writeln((suma = 3 + 5));
+document.writeln("El resultado de la suma de 3 + 5 es ", (suma = 3 + 5));
