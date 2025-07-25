@@ -2,16 +2,27 @@ let palabra = prompt("Ingrese una frase");
 
 if (palabra) {
   const vocales = ["a", "e", "i", "o", "u"];
-  for (i = 0; palabra.length; i++) {
-    if (palabra.includes(vocales[i])) {
-      document.write(vocales[i]);
-    }
+
+  if (palabra.includes("a")) {
+    document.write("a");
+  }
+
+  if (palabra.includes("e")) {
+    document.write("e");
+  }
+
+  if (palabra.includes("i")) {
+    document.write("i");
+  }
+
+  if (palabra.includes("o")) {
+    document.write("o");
+  }
+
+  if (palabra.includes("u")) {
+    document.write("u");
   }
 }
-
-
-
-
 
 // switch (true) {
 //   case palabra.includes("a"):
