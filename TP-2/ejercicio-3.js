@@ -5,6 +5,6 @@ let textoSumado = "";
 do {
   let cadenaDeTextoIngresada = prompt("Ingrese una frase");
   textoSumado += separador + cadenaDeTextoIngresada + saltoDeLinea;
-} while (confirm());
+} while (confirm("¿Desea salir?") == false);
 
 console.log(textoSumado);
