@@ -1,7 +1,12 @@
-let palabras = ["auto", "telescopio"];
+function buscador(palabras) {
+  let estaLaPalabra = palabras.indexOf("auto");
+  console.log(estaLaPalabra);
+}
 
-const estaLaPalabra = palabras.findIndex(function (palabra) {
-  return palabra.indexOf("auto");
-});
+buscador(["auto", "telescopio"]);
 
-console.log(estaLaPalabra);
+// let palabras = ["auto", "telescopio"];
+
+// let estaLaPalabra = palabras.indexOf("auto");
+
+// console.log(estaLaPalabra);
