@@ -1,0 +1,22 @@
+@import url(./css.css);
+
+button {
+  background-color: transparent;
+  padding: 10px 5px;
+  border: 1px solid red;
+  border-radius: 5px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  img {
+    width: 25px;
+    height: 15px;
+    object-fit: cover;
+  }
+}
+
+#mostrar {
+  font-size: 50px;
+}
