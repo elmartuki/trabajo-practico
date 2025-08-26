@@ -1,0 +1,13 @@
+@import url(./css.css);
+
+.reloj_dia,
+.reloj_hora {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.103);
+  margin: 0px 0px 10px 0px;
+}
+
+.reloj_hora {
+  display: flex;
+  justify-content: center;
+}

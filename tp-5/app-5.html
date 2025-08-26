@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./app-5.css" />
+  </head>
+  <body>
+    <section class="seccion-1" id="cronometroApp">
+      <input
+        id="tiempoIngresado"
+        type="number"
+        placeholder="Ingrese un tiempo en segundos"
+      />
+
+      <section>
+        <button id="comenzar" onclick="play()">
+          <img
+            src="./icons/play_arrow_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
+            alt=""
+          />
+        </button>
+        <button id="stop" onclick="pausar()">
+          <img
+            src="./icons/pause_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
+            alt=""
+          />
+        </button>
+        <button id="reset" onclick="reset()">
+          <img
+            src="./icons/undo_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
+            alt=""
+          />
+        </button>
+      </section>
+      <p id="mostrar"></p>
+    </section>
+    <script src="./app-5.js"></script>
+  </body>
+</html>
