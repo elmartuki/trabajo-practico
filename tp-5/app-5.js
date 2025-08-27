@@ -16,7 +16,10 @@ stop.addEventListener("click", pausar);
 function play(evento) {
   evento.preventDefault();
 
-  tiempoIngresado = Number(imputTiempo.value);
+  tiempoIngresado = Number(imputTiempo.value || 60);
+  if (tiempoIncial) {
+    return;
+  }
   tiempoIncial = tiempoIngresado;
 
   tiempoFinalizado = setInterval(function () {
